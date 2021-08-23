@@ -1,0 +1,12 @@
+# [Collaborative Filtering Recommender Systems](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.4520&rep=rep1&type=pdf)
+
+This paper is an introduction to collaborative filtering (CF). It discusses the main use cases for a CF system, the algorithms that employs, design choices based on the types of ratings, the different evaluation approaches for such systems, the use of more interactive interfaces and finally, the current (at the time of publishing) challenges and open questions realted to CF systems.
+
+First of all, even though this paper does a great work introducing the concepts and basis of CF, it is not a recent work and therefore, feels like a less trust worthy reading in the sense that while reading it I kept wondering if issues or methods presented have already been solved. In my opinion, one big topic missing here is how well deep learning based techniques can improve CF systems.
+
+I find enriching the discussions presented in the first sections. Most papers focus mainly in the technical aspects of the particular methodology, in this work, however, there is a big interest in describing the history, the task expected to be solved by CF systems, like the difference between recommending and rating prediction, and the description of domains suitable for CF systems. By contrast, the amount of technical information that would be necessary for implementing CF systems is very poor and one would then need to refer to other resources.
+
+The evaluation section is of particular interest, at least  to me, since this kind of systems interact directly with people and as stated in the paper, there are more aspects beyond accuracy that have to be taken into consideration like novelty or confidence and even more importantly, the quality of the recommendation or prediction perceived by the users.
+
+One final thought on the underneath learning task that these systems have to solve. I think and as the paper also states, what we want these systems to learn is the taste of each user through infromation like ratings, demographics, etc. Because of that, I think that combining colaborative filtering with content filtering would yield better results. Furthermore, there is the possibility to use domain specific information that help learn the taste of the user, an example for this would be the domain of books in where we could use the state-of-the art language models to help build a representation of taste and hence improve recommendations.
+
