@@ -1,0 +1,8 @@
+# Content-Based Recommendation Systems
+This paper discusses content-based recommender systems. It begins with an introduction describing what such systems are then discusses the representations of items and finally provides different methods of content-based recommender systems.
+
+In my opinion, this paper is quite simple. The methods described are classical machine learning algorithms that are not specific to recommender systems. Since the authors look at the methods as text classifiers I think the sense of personalized recommendations is lost or at least hidden. For example, in the Nearest Neighbors section, they only describe how to classify a document using previous documents. It is not clear how we can recommend a user using this method. Should we have one classifier for each user?.  Maybe we can compute a vector to represent the user in the same document vector space. A similar thing happens for the rest of the methods.
+
+Given that the publication of this work was in 2007, there is a big missing topic which is the use of deep learning models. Recently there has been a lot of work in natural language models using deep learning like Google's BERT model[1]. Such powerful models can be helpful to compute much richer representations of documents that could lead to improved recommendation performance. 
+
+[1] Jacob Devlin, Ming-Wei Chang, Kenton Lee, & Kristina Toutanova. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 
